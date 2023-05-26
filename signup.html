@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <main>
+        <div class="flexbox">
+            <div class="flex-item">
+                <!-- <a href="home.html"><img src="images/undo.png" class="undo-img" alt="undo-button"></a> -->
+                <fieldset class="form_field">
+                    <legend><img src="images/user.png" class="user-icon" alt="user-icon"></legend>
+                    <h2 class="heading">Sign Up</h2>
+
+                    <form action="index.html" method="get" id="signup-form">
+                        <div class="form-control">
+                            <label for="name" class="font-bold">Name<span class="star">*<span></label>
+                            <br>
+                            <input type="text" id="name" name="uname" class="form_input"
+                                placeholder="Type your username" required />
+                            <div class="small"></div>
+                        </div>
+
+                        <div class="form-control">
+                            <label for="email" class="font-bold">Email<span class="star">*<span></label>
+                            <br>
+                            <input type="email" id="email" name="email" class="form_input"
+                                placeholder="Type your password" required />
+                            <div class="small"></div>
+                        </div>
+
+
+                        <div class="form-control">
+                            <label for="pass" class="font-bold">Password<span class="star">*<span></label>
+                            <br>
+                            <input type="password" id="pass" name="password" class="form_input"
+                                placeholder="Type your password" required />
+                            <div class="small"></div>
+                        </div>
+
+                        <!-- <div class="form-control">
+                            <input type="checkbox" name="term-and-conditions" id="term" required> I read
+                            and agree to <a href="#" class="signup-links">Terms & Conditions</a>
+                        </div> -->
+                        <div>
+                            <input type="submit" value="Create Account" class="btn">
+                        </div>
+                        <p class="">Already have an account?<a href="login.html" class="signup-links"> Login</a></p>
+                    </form>
+                </fieldset>
+
+            </div>
+
+        </div>
+    </main>
+    <script src="js/noBack.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
